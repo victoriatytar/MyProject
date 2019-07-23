@@ -36,19 +36,19 @@ header .logo img {
 
 header .logo p {
     color: #c1d045;
-    font-size: 36px;
+    font-size: 2.5rem;
    }
 
 header .menu {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 
 header .menu li {
-    padding: 10px;
-    margin: 10px;
+    padding: 5px;
+    margin: 5px;
 }
 
 header .menu a {
@@ -68,14 +68,27 @@ header .banner {
 }
 
 header .banner h1 {
-    color: #9c1f4d;
-    font-size: 4.5rem;
+    color: #b42358;
+    font-size: 4rem;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 2px darkgray;
 }
 
 header .banner p {
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-family: Arial, Helvetica, sans-serif;
     align-items: flex-end;
+    text-shadow: 2px 2px 2px gray;
+}
+
+@media (min-width: 550px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+}
+
+header .menu a:hover {
+    color: #f11465;
 }
