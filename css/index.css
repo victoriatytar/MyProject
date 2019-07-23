@@ -84,13 +84,6 @@ header .banner p {
     text-align: center;
 }
 
-@media (max-width: 550px) {
-    header nav {
-        display: flex;
-        align-items: center;
-
-    }
-}
 
 header .menu a:hover {
     color: #f11465;
