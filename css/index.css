@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Rufina&display=swap');
+
+:root {
+    --main-color: black;
+    --accent-color:#4c7a34;
+    font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    font-family: Helvetica, sans-serif;
+}
+
+header .headertop {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+    height: 70px;
+    align-items: center;
+}
+
+header .logo {
+    font-family: 'Rufina', serif;
+    font-size: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .logo img {
+    width: 89px;
+}
+
+header .logo p {
+    color: #c1d045;
+    font-size: 36px;
+   }
+
+header .menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+}
+
+header .menu li {
+    padding: 10px;
+    margin: 10px;
+}
+
+header .menu a {
+    color: #243e16;
+    text-decoration: none;
+}
+
+header .banner {
+    min-height: 500px;
+    background-image: url(../img/mainphoto.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .banner h1 {
+    color: #9c1f4d;
+    font-size: 4.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .banner p {
+    color: white;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: flex-end;
+}
