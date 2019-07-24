@@ -37,6 +37,7 @@ header .logo img {
 header .logo p {
     color: #c1d045;
     font-size: 2.5rem;
+    margin: 5px;
    }
 
 header .menu {
@@ -87,4 +88,37 @@ header .banner p {
 
 header .menu a:hover {
     color: #f11465;
+}
+
+@media (max-width: 925px) {
+    header .menu {
+       display: none;
+    }
+}
+
+@media (min-width: 925px) {
+    header .burgermenu {
+       display: none;
+    }
+}
+
+header .burgermenu {
+    color: var(--accent-color);
+    margin: 10px;
+}
+
+header .burgermenu:hover {
+    color: #f11465;
+}
+
+@media (max-width: 578px) {
+    header .banner h1 {
+        font-size: 2.9rem;
+    }
+}
+
+@media (max-width: 578px) {
+    header .banner p {
+        font-size: 1.1rem;
+    }
 }
