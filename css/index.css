@@ -122,3 +122,69 @@ header .burgermenu:hover {
         font-size: 1.1rem;
     }
 }
+
+
+main .sectionAbout {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    align-items: flex-end;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+main .headerAbout {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+main .horizontalLine {
+    color: var(--accent-color);
+    max-width: 90%;
+    margin: auto;
+    height: 2px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+main .sectionAdvantages {
+    color: var(--accent-color);
+    }
+
+main .headerAdvantages {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+main .iconsForSports img {
+    width: 378px;
+    height: 267px;
+    margin-top: 20px;
+}
+
+main .listAdvantages {
+    font-size: 1.5rem;
+    align-content: center;
+}
+
+main .bodyAdvantages {
+    display: flex;
+    flex-direction: row;
+}
+
+
+main .sectionConditions {
+   color: var(--accent-color);
+    font-size: 1.5rem;
+    align-items: flex-end;
+    text-align: center;
+    max-width: 80%;
+    margin: auto;
+}
+
+main .headerConditions {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
