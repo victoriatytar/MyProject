@@ -175,7 +175,7 @@ main .bodyAdvantages {
 
 
 main .sectionConditions {
-   color: var(--accent-color);
+    color: var(--accent-color);
     font-size: 1.5rem;
     align-items: flex-end;
     text-align: center;
@@ -187,4 +187,58 @@ main .headerConditions {
     text-align: center;
     font-size: 2rem;
     font-style: italic;
+}
+
+main .campFormat {
+    text-align: center;
+}
+
+main .payment ul, .campdates ul {
+    list-style-type:none;
+}
+
+main .sectionMenu {
+    color: var(--accent-color);
+}
+
+main .headerMenu {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+main .bodyMenu {
+    display: flex;
+    flex-direction: row;
+}
+
+main .aboutMenu {
+    font-size: 1.5rem;
+    align-content: center;
+}
+
+main .iconsForFood img {
+    width: 424px;
+    height: 236px;
+}
+
+
+main .sectionTimetable {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    align-items: flex-end;
+    text-align: flex-start;
+    max-width: 80%;
+    margin: auto;
+}
+
+main .headerTimetable {
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+main .bodyTimetable ul {
+    list-style-type: none;
+    margin-left: 180px;
 }
