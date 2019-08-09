@@ -160,12 +160,16 @@ main .headerAdvantages {
 main .iconsForSports img {
     width: 378px;
     height: 267px;
-    margin-top: 20px;
-}
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+   }
 
 main .listAdvantages {
     font-size: 1.5rem;
     align-content: center;
+    width: 45%;
 }
 
 main .bodyAdvantages {
@@ -222,11 +226,14 @@ main .bodyMenu {
 main .aboutMenu {
     font-size: 1.5rem;
     align-content: center;
+    width: 50%;
+    margin-left: 50px;
 }
 
 main .iconsForFood img {
     width: 424px;
     height: 236px;
+    margin-right: 50px;
 }
 
 
@@ -257,7 +264,6 @@ main .sectionBoth {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 30px;
 }
 
 main .headerForm {
@@ -277,18 +283,60 @@ main .headerContacts {
 main .bodyForm{
     background-color: #dfedd6;
     height: 365px;
+    padding-top: 20px;
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+}
+
+
+main .bodyForm input, select {
+    border: 1px solid var(--accent-color);
+    border-radius: 5px;
+    width: 50%;
+    margin: auto;
+}
+
+main .bodyForm textarea {
+    border: 1px solid var(--accent-color);
+    border-radius: 10px;
+    margin: auto;
+    height: 76px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+
+main .bodyForm form {
+    width: 100%;
+
+}
+
+main .bodyForm fieldset {
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 footer .containerFooter {
-    background-color: white;
+    background-color: grey;
     height: 96px;
-    align-items: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer .footerImgs {
     display: flex;
     justify-content: space-around;
-    max-width: 50%;
-    margin-right: 0px;
+    width: 50%;
+}
+
+footer .footerImgs img {
+    border-radius: 12px;
 }
