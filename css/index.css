@@ -171,11 +171,14 @@ main .listAdvantages {
 main .bodyAdvantages {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: #ebebeb;
+    height: 400px;
 }
 
 
 main .sectionConditions {
-    color: var(--accent-color);
+    color: var(--main-color);
     font-size: 1.5rem;
     align-items: flex-end;
     text-align: center;
@@ -184,6 +187,7 @@ main .sectionConditions {
 }
 
 main .headerConditions {
+    color: var(--accent-color);
     text-align: center;
     font-size: 2rem;
     font-style: italic;
@@ -210,6 +214,9 @@ main .headerMenu {
 main .bodyMenu {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    background-color: #ebebeb;
+    height: 400px;
 }
 
 main .aboutMenu {
@@ -224,7 +231,7 @@ main .iconsForFood img {
 
 
 main .sectionTimetable {
-    color: var(--accent-color);
+    color: var(--main-color);
     font-size: 1.5rem;
     align-items: flex-end;
     text-align: flex-start;
@@ -233,6 +240,7 @@ main .sectionTimetable {
 }
 
 main .headerTimetable {
+    color: var(--accent-color);
     text-align: center;
     font-size: 2rem;
     font-style: italic;
@@ -241,4 +249,46 @@ main .headerTimetable {
 main .bodyTimetable ul {
     list-style-type: none;
     margin-left: 180px;
+}
+
+main .sectionBoth {
+    background-color: #ebebeb;
+    height: 568px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+main .headerForm {
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+main .headerContacts {
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+main .bodyForm{
+    background-color: #dfedd6;
+    height: 365px;
+}
+
+
+footer .containerFooter {
+    background-color: white;
+    height: 96px;
+    align-items: flex-end;
+}
+
+footer .footerImgs {
+    display: flex;
+    justify-content: space-around;
+    max-width: 50%;
+    margin-right: 0px;
 }
