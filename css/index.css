@@ -253,8 +253,8 @@ main .bodyTimetable ul {
 }
 
 main .sectionBoth {
-    background-color: #ebebeb;
-    height: 568px;
+
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -388,16 +388,18 @@ footer .footerImgs img {
         align-items: center;
         justify-content: center;
     }
-    main .headerAbout p, .listAdvantages ul, .aboutMenu ul, .bodyTimetable ul {
+    main .headerAbout p, .listAdvantages ul, .aboutMenu ul {
         width: 65%;
         font-size: 1.2rem;
         text-align: justify;
+    }
+    main .bodyTimetable ul {
+        width: 100%;
     }
     main .campFormat {
         font-size: 1.2rem;
         text-align: center;
     }
-
     main .headerAbout h3, .headerAdvantages h3, .headerConditions h3, .headerMenu h3, .headerTimetable h3 {
         font-size: 1.7rem;
     }
@@ -409,26 +411,38 @@ footer .footerImgs img {
         background-size: 100%, 100%;
         background-position: center;
         background-repeat: repeat-y;
-}
+    }
     main .iconsForFood img {
         display: none;
     }
-
     main .bodyMenu {
         background-image: url(../img/iconsforfoodtransp.png);
         background-size: 100%, 100%;
         background-position: center;
         background-repeat: repeat-y;
         width: 100%;
+    }
+    main .sectionBoth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    main .sectionForm, {
+        width: 50%;
+    }
+
+    footer .containerFooter {
+        margin-top: 50px;
+    }
+    main #map {
+        width: 100%;
+    }
 }
 
 @media (min-width: 925px) {
-    main .bodyMenu{
-        width: 50%;
-        height: auto;
-    }
-
-
+    main .sectionBoth {
+        background-color: #ebebeb;
+        height: 568px;
     }
 }
 
