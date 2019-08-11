@@ -401,7 +401,6 @@ footer .footerImgs img {
         width: 90%;
     }
     main .campFormat {
-        font-size: 1rem;
         text-align: center;
     }
     main .headerAbout h3, .headerAdvantages h3, .headerConditions h3, .headerMenu h3, .headerTimetable h3 {
@@ -457,8 +456,18 @@ footer .footerImgs img {
 }
 
 @media (max-width: 768px) {
-    main .headerAbout p, .listAdvantages ul, .campFormat, .aboutMenu ul, .bodyTimetable ul {
+    main .sectionAbout p, .listAdvantages ul, .campFormat, .aboutMenu ul, .bodyTimetable ul {
+        font-size: 1.2rem;
+    }
+
+}
+@media (max-width: 578px) {
+    main .sectionAbout p, .listAdvantages ul, .campFormat, .aboutMenu ul, .bodyTimetable ul {
         font-size: 0.8rem;
+    }
+    main .horizontalLine {
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
 }
