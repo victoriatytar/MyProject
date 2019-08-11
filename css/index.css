@@ -200,10 +200,7 @@ main .campFormat {
 
 main .payment ul, .campdates ul {
     list-style-type:none;
-}
-
-main .sectionMenu {
-
+    padding-left: 0px;
 }
 
 main .headerMenu {
@@ -253,8 +250,6 @@ main .bodyTimetable ul {
 }
 
 main .sectionBoth {
-
-
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -360,7 +355,7 @@ footer .footerImgs img {
 @media (max-width: 925px) {
     main .sectionAbout p {
        font-size: 1rem;
-       text-align: justify;
+       text-align: center;
     }
 }
 
@@ -388,13 +383,19 @@ footer .footerImgs img {
         align-items: center;
         justify-content: center;
     }
+    main .listAdvantages ul {
+        padding-left: 0px;
+    }
     main .headerAbout p, .listAdvantages ul, .aboutMenu ul {
         width: 65%;
         font-size: 1.2rem;
         text-align: justify;
     }
+    main .payment ul, .campdates ul {
+        padding-left: 0px;
+    }
     main .bodyTimetable ul {
-        width: 100%;
+        width: 90%;
     }
     main .campFormat {
         font-size: 1.2rem;
@@ -437,12 +438,18 @@ footer .footerImgs img {
     main #map {
         width: 100%;
     }
+    main .location, .cont {
+        margin-left: 20px;
+    }
 }
 
 @media (min-width: 925px) {
     main .sectionBoth {
         background-color: #ebebeb;
         height: 568px;
+    }
+    main .aboutMenu ul {
+        margin-left: 40px;
     }
 }
 
