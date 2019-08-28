@@ -13,15 +13,6 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
-header .headertop {
-    display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding: 0;
-    height: 70px;
-    align-items: center;
-}
-
 header .logo {
     font-family: 'Rufina', serif;
     font-size: 2rem;
