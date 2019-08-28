@@ -50,7 +50,7 @@ header .menu a {
 
 header .banner {
     min-height: 500px;
-    background-image: url(../img/mainphoto.jpg);
+    background-image: url(../img/carousel/mainphoto.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
