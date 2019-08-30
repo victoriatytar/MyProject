@@ -416,11 +416,7 @@ footer .footerImgs img {
         background-repeat: repeat-y;
         width: 100%;
     }
-    main .sectionBoth {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
     main .sectionForm, {
         width: 50%;
     }
@@ -436,7 +432,7 @@ footer .footerImgs img {
     }
 }
 
-@media (min-width: 925px) {
+@media (min-width: 768px) {
     main .sectionBoth {
         background-color: #ebebeb;
         height: 568px;
@@ -446,12 +442,18 @@ footer .footerImgs img {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     main .sectionAbout p, .listAdvantages ul, .campFormat, .aboutMenu ul, .bodyTimetable ul {
         font-size: 1.2rem;
     }
+    main .sectionBoth {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
+
 @media (max-width: 578px) {
     main .sectionAbout p, .listAdvantages ul, .campFormat, .aboutMenu ul, .bodyTimetable ul {
         font-size: 0.8rem;
